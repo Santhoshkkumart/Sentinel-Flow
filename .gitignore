@@ -1,0 +1,64 @@
+# =========================
+# Node / MERN
+# =========================
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+.pnpm-debug.log*
+
+# =========================
+# Python / Virtual Env
+# =========================
+venv/
+.env
+.env.*
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# =========================
+# PyTorch / ML Caches
+# =========================
+.cache/
+torch/
+torch_extensions/
+checkpoints/
+runs/
+wandb/
+logs/
+outputs/
+
+# YOLO / Ultralytics
+*.pt
+*.onnx
+*.engine
+ultralytics/
+datasets/
+weights/
+
+# =========================
+# Jupyter / Experiments
+# =========================
+.ipynb_checkpoints/
+
+# =========================
+# OS / Editor junk
+# =========================
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+
+# =========================
+# Build / Dist
+# =========================
+dist/
+build/
+
+# =========================
+# Temporary / Misc
+# =========================
+*.log
+*.tmp
